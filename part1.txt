@@ -1,0 +1,34 @@
+5 stage
+
+Step one
+|
+|
+User inputs the question(how do I handle user invalid creds)
+ 	|
+	|
+	|
+	Step Two -
+	|
+	|
+The question is converted to embedded vector(Sentence Transformer)
+	|
+	|
+	|
+Step Three
+		|
+		|
+Vector database retrieval(the vector database finds similar content(query vector-relevant document chunks
+	|
+	|
+	|
+Step 4 (Prompt assembly (system prompt + context + question)
+		|
+		|
+	the context and question are combined(system prompt+context+question)
+		|
+		|
+		|
+	Step five(LLM generation = response
+		|
+		|
+	LLM receives the answer and generates the response(complete prompt)
